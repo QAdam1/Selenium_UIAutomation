@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "installMaven": true
+    },
+    "ghcr.io/kreemer/features/chrometesting:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
